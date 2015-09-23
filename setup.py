@@ -35,14 +35,14 @@ setup(
     license='CCO',
     platforms='Posix; MacOS X; Windows',
     install_requires=[
-      'requests==2.7.0',
-      'python-dateutil>=2.4.2',
-      'numpy>=1.8',
-      'termcolor>=1.1.0',
-      'rasterio>=0.26.0',
-      'six==1.9.0',
-      'homura>=0.1.2',
-      'boto>=2.38.0'
+        'requests==2.2.0',
+        'python-dateutil>=1.5.0',
+        'numpy>=1.8',
+        'termcolor>=1.1.0',
+        'rasterio>=0.26.0',
+        'six==1.9.0',
+        'homura>=0.1.2',
+        'boto>=2.38.0'
     ],
     test_suite='nose.collector',
     test_require=test_requirements
