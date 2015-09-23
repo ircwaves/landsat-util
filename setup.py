@@ -8,7 +8,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-from landsat import __version__
+from landsat-util import __version__
 
 
 def readme():
@@ -28,21 +28,19 @@ setup(
     long_description=readme(),
     author='Development Seed',
     author_email='info@developmentseed.org',
-    scripts=['bin/landsat'],
+    scripts=['bin/landsat-util'],
     url='https://github.com/developmentseed/landsat-util',
-    packages=['landsat'],
+    packages=['landsat-util'],
     include_package_data=True,
     license='CCO',
     platforms='Posix; MacOS X; Windows',
     install_requires=[
       'requests==2.7.0',
       'python-dateutil>=2.4.2',
-      'numpy>=1.9.3',
+      'numpy>=1.8',
       'termcolor>=1.1.0',
       'rasterio>=0.26.0',
       'six==1.9.0',
-      'scipy>=0.16.0',
-      'scikit-image>=0.11.3',
       'homura>=0.1.2',
       'boto>=2.38.0'
     ],
