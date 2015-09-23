@@ -26,10 +26,10 @@ setup(
     description='A utility to search, download and process Landsat 8' +
     ' satellite imagery',
     long_description=readme(),
-    author='Development Seed',
-    author_email='info@developmentseed.org',
+    author='Development Seed, icooke',
+    author_email='icooke@ags.io',
     scripts=['bin/landsat_util'],
-    url='https://github.com/developmentseed/landsat-util',
+    url='https://github.com/ircwaves/landsat-util',
     packages=['landsat_util'],
     include_package_data=True,
     license='CCO',
