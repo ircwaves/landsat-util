@@ -8,7 +8,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-from landsat-util import __version__
+from landsat_util import __version__
 
 
 def readme():
@@ -28,9 +28,9 @@ setup(
     long_description=readme(),
     author='Development Seed',
     author_email='info@developmentseed.org',
-    scripts=['bin/landsat-util'],
+    scripts=['bin/landsat_util'],
     url='https://github.com/developmentseed/landsat-util',
-    packages=['landsat-util'],
+    packages=['landsat_util'],
     include_package_data=True,
     license='CCO',
     platforms='Posix; MacOS X; Windows',
