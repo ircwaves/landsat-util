@@ -35,7 +35,7 @@ setup(
     license='CCO',
     platforms='Posix; MacOS X; Windows',
     install_requires=[
-        'requests==2.2.0',
+        'requests',
         'python-dateutil>=1.5.0',
         'numpy>=1.8',
         'termcolor>=1.1.0',
