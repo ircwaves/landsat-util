@@ -40,7 +40,7 @@ setup(
         'numpy>=1.8',
         'termcolor>=1.1.0',
         'rasterio>=0.26.0',
-        'six==1.9.0',
+        'six>=1.9.0',
         'homura>=0.1.2',
         'boto>=2.38.0'
     ],
