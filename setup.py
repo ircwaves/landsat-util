@@ -11,7 +11,7 @@ except ImportError:
     setup_kwargs = {'scripts': ['bin/landsat_util']}
     
 
-from landsat import __version__
+from landsat_util import __version__
 
 
 def readme():
