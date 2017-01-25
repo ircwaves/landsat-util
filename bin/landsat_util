@@ -2,7 +2,7 @@
 # Landsat Util
 # License: CC0 1.0 Universal
 
-import landsat.landsat
+import landsat_util.landsat
 
 if __name__ == '__main__':
-    landsat.landsat.__main__()
+    landsat_util.landsat.__main__()

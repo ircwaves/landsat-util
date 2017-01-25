@@ -5,10 +5,10 @@
 
 try:
     from setuptools import setup
-    setup_kwargs = {'entry_points': {'console_scripts':['landsat=landsat.landsat:__main__']}}
+    setup_kwargs = {'entry_points': {'console_scripts':['landsat=landsat_util.landsat:__main__']}}
 except ImportError:
     from distutils.core import setup
-    setup_kwargs = {'scripts': ['bin/landsat']}
+    setup_kwargs = {'scripts': ['bin/landsat_util']}
     
 
 from landsat import __version__
@@ -30,10 +30,10 @@ setup(
     description='A utility to search, download and process Landsat 8' +
     ' satellite imagery',
     long_description=readme(),
-    author='Development Seed',
-    author_email='info@developmentseed.org',
-    url='https://github.com/developmentseed/landsat-util',
-    packages=['landsat'],
+    author='Development Seed, icooke',
+    author_email='icooke@ags.io',
+    url='https://github.com/ircwaves/landsat-util',
+    packages=['landsat_util'],
     include_package_data=True,
     license='CCO',
     platforms='Posix; MacOS X; Windows',
