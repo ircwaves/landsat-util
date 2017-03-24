@@ -1,1 +1,1 @@
-__version__ = '0.8.0ircwaves0'
+__version__ = '0.8.1ircwaves'
